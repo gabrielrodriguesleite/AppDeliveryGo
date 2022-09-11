@@ -16,7 +16,15 @@ export default function ConfigsZone() {
         <input type="number" min="1" max="100" defaultValue="5" />
       </div>
 
-      <div>4. save configs</div>
+      <div>
+        <button
+          type="button"
+          onClick={ () => console.log('save configs') }
+        >
+          4. save configs
+        </button>
+
+      </div>
 
     </div>
   );

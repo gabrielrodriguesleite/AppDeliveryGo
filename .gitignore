@@ -17,3 +17,6 @@
 # node:
 web/node_modules
 web/build
+
+# data
+web/example-data
